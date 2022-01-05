@@ -35,3 +35,77 @@ background-repeat: no-repeat;
    border-radius: 25px;
    font-weight: 700;
 }
+.Big{
+    color: red;
+}
+.web{
+    color: cyan;
+}
+.link-bitton2{
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    border-radius: 7px;
+    background-image: linear-gradient(red, blue);
+}
+.left{
+    /* margin-right: 110px; */
+}
+.background-image2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 500px;
+}
+.new-ara{
+    color: rgb(233, 9, 46);
+    
+}
+.fullo-stack{
+    color: purple;
+}
+.hero{
+    color: rgb(27, 2, 27);
+}
+.lastimg{
+    background-image: url(images/exp-bg.png);
+    /* padding-left: 10px; */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hero2{
+    box-shadow: 10px 10px 40px purple;
+    /* box-shadow: 10px 10px 40px grey; */
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+
+.flex1{
+    display: flex;
+    margin-bottom: 100px;
+}
+#slice2{
+   border-left: 10px solid;
+   /* border-image-slice: 1; */
+   background-image: linear-gradient(red,black);
+   border-image: linear-gradient(purple,orange);
+   border-image-slice: 1;
+}
+#slice1{
+    border-right: 15px solid;
+    border-image: linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+    background-image:linear-gradient(purple,red);
+
+}
+.footer-dec{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+ padding-bottom: 10px;
+}
